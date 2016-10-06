@@ -49,7 +49,6 @@ while a < n:
     a+=1
 print(i)
 for k in i:
-    if k in i:
-        if k not in j:
-            j.append(k)
+    if k not in j:
+        j.append(k)
 print(j)
